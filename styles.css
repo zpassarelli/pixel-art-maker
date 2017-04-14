@@ -7,14 +7,23 @@
 }
 
 #palette {
-  height: 520px;
+  height: 440px;
   width: 80px;
   border: 1px solid black;
   position: absolute;
   top: 45px;
 }
 
-h1, footer {
+#picker {
+  position: relative;
+  top: -81px;
+  height: 62px;
+  width: 81px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+h1, h4 {
   font-style: oblique;
   margin: auto;
   margin-left: 90px;

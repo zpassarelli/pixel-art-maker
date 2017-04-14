@@ -1,6 +1,7 @@
 
 var grid = document.getElementById('grid');
 var palette = document.getElementById('palette');
+var picker = document.getElementById('picker');
 
 function create(name){
   return document.createElement(name);
@@ -101,4 +102,9 @@ document.addEventListener("DOMContentLoaded",function (){
   grid.addEventListener('mouseleave',function (){
     mouseState = false;
   });
+  picker.addEventListener('change',function (){
+    select = this.value;
+    resetPalette();
+  });
+
 });
