@@ -1,0 +1,25 @@
+#grid {
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+  margin-left: 90px;
+  background-color: white;
+}
+
+#palette {
+  height: 520px;
+  width: 80px;
+  border: 1px solid black;
+  position: absolute;
+  top: 45px;
+}
+
+h1, footer {
+  font-style: oblique;
+  margin: auto;
+  margin-left: 90px;
+}
+
+body {
+  background-color: beige;
+}
