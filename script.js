@@ -93,13 +93,13 @@ document.addEventListener("DOMContentLoaded",function (){
     });
 
   }
-  grid.addEventListener("mousedown",function (){
+  window.addEventListener("mousedown",function (){
     mouseState = true;
   });
-  grid.addEventListener("mouseup",function (){
+  window.addEventListener("mouseup",function (){
     mouseState = false;
   });
-  grid.addEventListener('mouseleave',function (){
+  window.addEventListener('mouseleave',function (){
     mouseState = false;
   });
   picker.addEventListener('change',function (){
